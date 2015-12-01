@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>国家动漫知识产权交易平台</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <link rel="stylesheet" href="images/icon/iconfont.css">
+    <link rel="stylesheet" href="css/acgBase.css">
+    <link rel="stylesheet" href="css/unslider.css">
+</head>
+<body>
+    <div class="acg-topBar">
+        <div class="acg-container">
+            <ul class="acg-left">
+                <li>您好请</li>
+                <li>
+                    <a href="#">登录</a>
+                </li>
+                <li>
+                    <a class="acg-active" href="#">注册</a>
+                </li>
+            </ul>
+            <ul class="acg-right">
+                <li><a href="#">我的业务</a></li>
+                <li><a href="#">我的消息</a></li>
+                <li><a href="#">收藏夹</a></li>
+                <li><a href="#">联系客服</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="acg-header">
+        <div class="acg-container">
+            <a href="index.html" class="acg-main-logo"><img src="images/common/logo.png"></a>
+            <ul class="acg-nav">
+                <li>
+                    <a href="#"class="acg-active">首页<p class="acg-sm-en">HOME</p></a>
+                </li>
+                <li>
+                    <a href="#" >品牌<p class="acg-sm-en">BRAND</p></a>
+                </li>
+                <li>
+                    <a href="#">公司<p class="acg-sm-en">COMPANY</p></a>
+                </li>
+                <li>
+                    <a href="#">舆情<p class="acg-sm-en">EMOTION</p></a>
+                </li>
+            </ul>
+            <div class="acg-searchBox">
+                <div class="searchItem">
+                    <a href="javascript:;" id="searchType" onclick="chooseSearchType(this)"><span>品牌</span>&nbsp;&nbsp;<i class="iconfont icon-htmal5icon03"></i></a>
+                    <div class="hideItem" style="display: none">
+                        <a class="hideIt" href="javascript:;">授权</a>
+                        <a class="hideIt" href="javascript:;">公司</a>
+                    </div>
+                </div>
+                <input type="text" class="searchInput">
+                <a class="searchBtn" href="#"><i class="iconfont icon-htmal5icon25"></i></a>
+            </div>
+            <a class="acg-other-logo" href="#"  target="_blank">
+                <img src="images/common/kuman.jpg">
+            </a>
+        </div>
+    </div>
+    <div class="acg-body">
+        <div class="acg-slider" id="slides">
+            <ul>
+                <li class="acg-slide" style="background-image: url('images/index/slide1.jpg')"></li>
+                <li class="acg-slide" style="background-image: url('images/index/slide2.jpg')"></li>
+                <li class="acg-slide" style="background-image: url('images/index/slide3.jpg')"></li>
+            </ul>
+        </div>
+        <div class="acg-container">
+            <div class="acg-index-item mb20">
+                <div class="acg-head">
+                    <a href="javascript:;" class="acg-tabBigbtn acg-active">推荐授权<em>AUTHONIZE</em></a>
+                    <a href="javascript:;" class="acg-tabBigbtn">推荐品牌<em>BRAND</em></a>
+                </div>
+                <div class="acg-tab-inner" id="recommendAuthonize">
+                    <a href="#" class="acg-tab-inner-item">
+                        <div class="imgitem" style="background-image:url(http://7xjbbc.com1.z0.glb.clouddn.com/FshQg1RraEDKZqqLdecjjsUrYEHE);"></div>
+                        <i class="iconfont icon-cuyuanjiao01"></i>
+                        <p class="licensing-name">一个和尚打水吃，两个和尚抬水吃，三个和尚没水吃。</p>
+                        <p class="licensing-price"><i class="iconfont icon-anonymous-iconfont"></i>520.00万</p>
+                    </a>
+                    <a href="#" class="acg-tab-inner-item">
+                        <div class="imgitem" style="background-image:url(http://7xjbbc.com1.z0.glb.clouddn.com/FshQg1RraEDKZqqLdecjjsUrYEHE);"></div>
+                        <i class="iconfont icon-huojiao01"></i>
+                        <p class="licensing-name">一个和尚打水吃，两个和尚抬水吃，三个和尚没水吃。</p>
+                        <p class="licensing-price"><i class="iconfont icon-anonymous-iconfont"></i>520.00万</p>
+                    </a>
+                    <a href="#" class="acg-tab-inner-item">
+                        <div class="imgitem" style="background-image:url(http://7xjbbc.com1.z0.glb.clouddn.com/FshQg1RraEDKZqqLdecjjsUrYEHE);"></div>
+                        <i class="iconfont icon-shangyuanjiao01"></i>
+                        <p class="licensing-name">一个和尚打水吃，两个和尚抬水吃，三个和尚没水吃。</p>
+                        <p class="licensing-price"><i class="iconfont icon-anonymous-iconfont"></i>520.00万</p>
+                    </a>
+                    <a href="#" class="acg-tab-inner-item">
+                        <div class="imgitem" style="background-image:url(http://7xjbbc.com1.z0.glb.clouddn.com/FshQg1RraEDKZqqLdecjjsUrYEHE);"></div>
+                        <i class="iconfont icon-cuyuanjiao01"></i>
+                        <p class="licensing-name">一个和尚打水吃，两个和尚抬水吃，三个和尚没水吃。</p>
+                        <p class="licensing-price"><i class="iconfont icon-anonymous-iconfont"></i>520.00万</p>
+                    </a>
+                    <a href="#" class="acg-tab-inner-item">
+                        <div class="imgitem" style="background-image:url(http://7xjbbc.com1.z0.glb.clouddn.com/FshQg1RraEDKZqqLdecjjsUrYEHE);"></div>
+                        <i class="iconfont icon-cuyuanjiao01"></i>
+                        <p class="licensing-name">一个和尚打水吃，两个和尚抬水吃，三个和尚没水吃。</p>
+                        <p class="licensing-price"><i class="iconfont icon-anonymous-iconfont"></i>520.00万</p>
+                    </a>
+                    <a href="#" class="acg-tab-inner-item">
+                        <div class="imgitem" style="background-image:url(http://7xjbbc.com1.z0.glb.clouddn.com/FshQg1RraEDKZqqLdecjjsUrYEHE);"></div>
+                        <i class="iconfont icon-cuyuanjiao01"></i>
+                        <p class="licensing-name">一个和尚打水吃，两个和尚抬水吃，三个和尚没水吃。</p>
+                        <p class="licensing-price"><i class="iconfont icon-anonymous-iconfont"></i>520.00万</p>
+                    </a>
+                    <a href="#" class="acg-tab-inner-item">
+                        <div class="imgitem" style="background-image:url(http://7xjbbc.com1.z0.glb.clouddn.com/FshQg1RraEDKZqqLdecjjsUrYEHE);"></div>
+                        <i class="iconfont icon-cuyuanjiao01"></i>
+                        <p class="licensing-name">一个和尚打水吃，两个和尚抬水吃，三个和尚没水吃。</p>
+                        <p class="licensing-price"><i class="iconfont icon-anonymous-iconfont"></i>520.00万</p>
+                    </a>
+                    <a href="#" class="acg-tab-inner-item">
+                        <div class="imgitem" style="background-image:url(http://7xjbbc.com1.z0.glb.clouddn.com/FshQg1RraEDKZqqLdecjjsUrYEHE);"></div>
+                        <i class="iconfont icon-cuyuanjiao01"></i>
+                        <p class="licensing-name">一个和尚打水吃，两个和尚抬水吃，三个和尚没水吃。</p>
+                        <p class="licensing-price"><i class="iconfont icon-anonymous-iconfont"></i>520.00万</p>
+                    </a>
+                    <a href="#" class="acg-tab-inner-item">
+                        <div class="imgitem" style="background-image:url(http://7xjbbc.com1.z0.glb.clouddn.com/FshQg1RraEDKZqqLdecjjsUrYEHE);"></div>
+                        <i class="iconfont icon-cuyuanjiao01"></i>
+                        <p class="licensing-name">一个和尚打水吃，两个和尚抬水吃，三个和尚没水吃。</p>
+                        <p class="licensing-price"><i class="iconfont icon-anonymous-iconfont"></i>520.00万</p>
+                    </a>
+                    <a href="#" class="acg-tab-inner-item">
+                        <div class="imgitem" style="background-image:url(http://7xjbbc.com1.z0.glb.clouddn.com/FshQg1RraEDKZqqLdecjjsUrYEHE);"></div>
+                        <i class="iconfont icon-cuyuanjiao01"></i>
+                        <p class="licensing-name">一个和尚打水吃，两个和尚抬水吃，三个和尚没水吃。</p>
+                        <p class="licensing-price"><i class="iconfont icon-anonymous-iconfont"></i>520.00万</p>
+                    </a>
+                </div>
+                <div class="acg-tab-inner" id="recommendCompany" style="display:none ;">
+                    <a href="#" class="acg-tab-inner-item">
+                        <div class="imgitem" style="background-image:url(http://7xjbbc.com1.z0.glb.clouddn.com/FrrEPZ6nG__QNhZsnAID2vMhzJDr);"></div>
+                        <p class="licensing-name tcenter">一个和尚打水吃，两个和尚抬水吃，三个和尚没水吃。</p>
+                    </a>
+                    <a href="#" class="acg-tab-inner-item">
+                        <div class="imgitem" style="background-image:url(http://7xjbbc.com1.z0.glb.clouddn.com/FrrEPZ6nG__QNhZsnAID2vMhzJDr);"></div>
+                        <p class="licensing-name tcenter">一个和尚打水吃，两个和尚抬水吃，三个和尚没水吃。</p>
+                    </a>
+                    <a href="#" class="acg-tab-inner-item">
+                        <div class="imgitem" style="background-image:url(http://7xjbbc.com1.z0.glb.clouddn.com/FrrEPZ6nG__QNhZsnAID2vMhzJDr);"></div>
+                        <p class="licensing-name tcenter">一个和尚打水吃，两个和尚抬水吃，三个和尚没水吃。</p>
+                    </a>
+                    <a href="#" class="acg-tab-inner-item">
+                        <div class="imgitem" style="background-image:url(http://7xjbbc.com1.z0.glb.clouddn.com/FrrEPZ6nG__QNhZsnAID2vMhzJDr);"></div>
+                        <p class="licensing-name tcenter">一个和尚打水吃，两个和尚抬水吃，三个和尚没水吃。</p>
+                    </a>
+                    <a href="#" class="acg-tab-inner-item">
+                        <div class="imgitem" style="background-image:url(http://7xjbbc.com1.z0.glb.clouddn.com/FrrEPZ6nG__QNhZsnAID2vMhzJDr);"></div>
+                        <p class="licensing-name tcenter">一个和尚打水吃，两个和尚抬水吃，三个和尚没水吃。</p>
+                    </a>
+                    <a href="#" class="acg-tab-inner-item">
+                        <div class="imgitem" style="background-image:url(http://7xjbbc.com1.z0.glb.clouddn.com/FrrEPZ6nG__QNhZsnAID2vMhzJDr);"></div>
+                        <p class="licensing-name tcenter">一个和尚打水吃，两个和尚抬水吃，三个和尚没水吃。</p>
+                    </a>
+                    <a href="#" class="acg-tab-inner-item">
+                        <div class="imgitem" style="background-image:url(http://7xjbbc.com1.z0.glb.clouddn.com/FrrEPZ6nG__QNhZsnAID2vMhzJDr);"></div>
+                        <p class="licensing-name tcenter">一个和尚打水吃，两个和尚抬水吃，三个和尚没水吃。</p>
+                    </a>
+                    <a href="#" class="acg-tab-inner-item">
+                        <div class="imgitem" style="background-image:url(http://7xjbbc.com1.z0.glb.clouddn.com/FrrEPZ6nG__QNhZsnAID2vMhzJDr);"></div>
+                        <p class="licensing-name tcenter">一个和尚打水吃，两个和尚抬水吃，三个和尚没水吃。</p>
+                    </a>
+                    <a href="#" class="acg-tab-inner-item">
+                        <div class="imgitem" style="background-image:url(http://7xjbbc.com1.z0.glb.clouddn.com/FrrEPZ6nG__QNhZsnAID2vMhzJDr);"></div>
+                        <p class="licensing-name tcenter">一个和尚打水吃，两个和尚抬水吃，三个和尚没水吃。</p>
+                    </a>
+                    <a href="#" class="acg-tab-inner-item">
+                        <div class="imgitem" style="background-image:url(http://7xjbbc.com1.z0.glb.clouddn.com/FrrEPZ6nG__QNhZsnAID2vMhzJDr);"></div>
+                        <p class="licensing-name tcenter">一个和尚打水吃，两个和尚抬水吃，三个和尚没水吃。</p>
+                    </a>
+                </div>
+            </div>
+            <!-- 广告位 -->
+            <div class="acg-adv">
+                <img src="images/index/adv.jpg">
+            </div>
+            <div class="acg-index-item">
+                <div class="acg-index-left">
+                    <div class="acg-head">
+                        <i class="iconfont icon-acgtubiao"></i>
+                        <span class="acg-head-name">授权品类<em>&nbsp;&nbsp;LICENSED&nbsp;BRAND</em></span>
+                        <a class="acg-more" href="javascript:;">更多>></a>
+                    </div>
+                    <div class="acg-content">
+                        <div class="acg-brand">
+                            <div class="acg-item-head">
+                                <i class="iconfont icon-acgfuzhuangpeijian01"></i>
+                                <span>服饰配件</span>
+                            </div>
+                            <div class="acg-item-body">
+                                <table>
+                                    <tr>
+                                        <td class="acg-item-name"><span>男装</span></td>
+                                        <td class="acg-item-list"><a href="#">T恤</a><a href="#">牛仔裤</a><a href="#">西装</a><a href="#">外套</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="acg-item-name"><span>女装</span></td>
+                                        <td class="acg-item-list"><a href="#">T恤</a><a href="#">牛仔裤</a><a href="#">西装</a><a href="#">外套</a><a href="#">内衣</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="acg-item-name"><span>鞋类</span></td>
+                                        <td class="acg-item-list"><a href="#">男鞋</a><a href="#">女鞋</a><a href="#">皮鞋</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="acg-item-name"><span>箱包</span></td>
+                                        <td class="acg-item-list"><a href="#">精品男包</a><a href="#">潮流女包</a><a href="#">双肩包</a><a href="#">旅行包</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="acg-item-name"><span>配件</span></td>
+                                        <td class="acg-item-list"><a href="#">手链</a><a href="#">手机壳</a><a href="#">帽子</a></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+
+                        <div class="acg-brand">
+                            <div class="acg-item-head">
+                                <i class="iconfont icon-acgbaihuo01"></i>
+                                <span>服饰配件</span>
+                            </div>
+                            <div class="acg-item-body">
+                                <table>
+                                    <tr>
+                                        <td class="acg-item-name"><span>男装</span></td>
+                                        <td class="acg-item-list"><a href="#">T恤</a><a href="#">牛仔裤</a><a href="#">西装</a><a href="#">外套</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="acg-item-name"><span>女装</span></td>
+                                        <td class="acg-item-list"><a href="#">T恤</a><a href="#">牛仔裤</a><a href="#">西装</a><a href="#">外套</a><a href="#">内衣</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="acg-item-name"><span>鞋类</span></td>
+                                        <td class="acg-item-list"><a href="#">男鞋</a><a href="#">女鞋</a><a href="#">皮鞋</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="acg-item-name"><span>箱包</span></td>
+                                        <td class="acg-item-list"><a href="#">精品男包</a><a href="#">潮流女包</a><a href="#">双肩包</a><a href="#">旅行包</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="acg-item-name"><span>配件</span></td>
+                                        <td class="acg-item-list"><a href="#">手链</a><a href="#">手机壳</a><a href="#">帽子</a></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+
+                        <div class="acg-brand">
+                            <div class="acg-item-head">
+                                <i class="iconfont icon-acgwenyushuangxin01"></i>
+                                <span>服饰配件</span>
+                            </div>
+                            <div class="acg-item-body">
+                                <table>
+                                    <tr>
+                                        <td class="acg-item-name"><span>男装</span></td>
+                                        <td class="acg-item-list"><a href="#">T恤</a><a href="#">牛仔裤</a><a href="#">西装</a><a href="#">外套</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="acg-item-name"><span>女装</span></td>
+                                        <td class="acg-item-list"><a href="#">T恤</a><a href="#">牛仔裤</a><a href="#">西装</a><a href="#">外套</a><a href="#">内衣</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="acg-item-name"><span>鞋类</span></td>
+                                        <td class="acg-item-list"><a href="#">男鞋</a><a href="#">女鞋</a><a href="#">皮鞋</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="acg-item-name"><span>箱包</span></td>
+                                        <td class="acg-item-list"><a href="#">精品男包</a><a href="#">潮流女包</a><a href="#">双肩包</a><a href="#">旅行包</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="acg-item-name"><span>配件</span></td>
+                                        <td class="acg-item-list"><a href="#">手链</a><a href="#">手机壳</a><a href="#">帽子</a></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+
+                        <div class="acg-brand">
+                            <div class="acg-item-head">
+                                <i class="iconfont icon-acgertongleyuan01"></i>
+                                <span>服饰配件</span>
+                            </div>
+                            <div class="acg-item-body">
+                                <table>
+                                    <tr>
+                                        <td class="acg-item-name"><span>男装</span></td>
+                                        <td class="acg-item-list"><a href="#">T恤</a><a href="#">牛仔裤</a><a href="#">西装</a><a href="#">外套</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="acg-item-name"><span>女装</span></td>
+                                        <td class="acg-item-list"><a href="#">T恤</a><a href="#">牛仔裤</a><a href="#">西装</a><a href="#">外套</a><a href="#">内衣</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="acg-item-name"><span>鞋类</span></td>
+                                        <td class="acg-item-list"><a href="#">男鞋</a><a href="#">女鞋</a><a href="#">皮鞋</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="acg-item-name"><span>箱包</span></td>
+                                        <td class="acg-item-list"><a href="#">精品男包</a><a href="#">潮流女包</a><a href="#">双肩包</a><a href="#">旅行包</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="acg-item-name"><span>配件</span></td>
+                                        <td class="acg-item-list"><a href="#">手链</a><a href="#">手机壳</a><a href="#">帽子</a></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="acg-index-right">
+                    <div class="acg-head" style="border-color: #e6e6e6">
+                        <span class="acg-head-name">&nbsp;&nbsp;展会资讯<em>&nbsp;&nbsp;CONSULTATION</em></span>
+                        <a class="acg-more" href="javascript:;">更多>></a>
+                    </div>
+                    <div class="acg-content" style="padding: 0px;border-bottom: none">
+                        <div class="acg-right-list">
+                            <p class="acg-list-name">2014上海国际品牌授权展</p>
+                            <p class="acg-list-time">10.14~10.16</p>
+                            <div class="acg-list-post" style="background-image: url('images/index/zhanhui.jpg')"></div>
+                            <p  class="acg-list-synopsis">2014年10月14-16日，中国玩具和婴童用品协会三大服务平台中国玩具展、中国婴童展和上海国际品牌授权......</p>
+                        </div>
+                        <div class="acg-right-list">
+                            <p class="acg-list-name">2014上海国际品牌授权展</p>
+                            <p class="acg-list-time">10.14~10.16</p>
+                            <div class="acg-list-post" style="background-image: url('images/index/zhanhui.jpg')"></div>
+                            <p class="acg-list-synopsis">2014年10月14-16日，中国玩具和婴童用品协会三大服务平台中国玩具展、中国婴童展和上海国际品牌授权......</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="acg-index-item">
+                <div class="acg-head">
+                    <i class="iconfont icon-acgtubiao"></i>
+                    <span class="acg-head-name">近期活动<em>&nbsp;&nbsp;ACTIVITY</em></span>
+                    <a class="acg-more" href="javascript:;">更多>></a>
+                </div>
+                <div class="acg-inner">
+                    <div class="acg-inner-item">
+                        <img src="http://7xjbbc.com1.z0.glb.clouddn.com/Fv5QL1QfYzhdWl0stqY-MsP3swJd">
+                        <div class="acg-over-text">
+                            <p class="acg-over-title">猜猜奇妙之旅猜猜奇妙之旅猜猜奇妙之旅猜猜奇妙之旅猜猜奇妙之旅</p>
+                            <p class="acg-over-adr"><i class="iconfont icon-htmal5icon14"></i>上海万达广场3楼购物中心</p>
+                            <p class="acg-over-time"><i class="iconfont icon-htmal5icon34"></i>2015年3月12日～2015年9月21日</p>
+                        </div>
+                    </div>
+                    <div class="acg-inner-item">
+                        <img src="http://7xjbbc.com1.z0.glb.clouddn.com/Fv5QL1QfYzhdWl0stqY-MsP3swJd">
+                        <div class="acg-over-text">
+                            <p class="acg-over-title">猜猜奇妙之旅猜猜奇妙之旅猜猜奇妙之旅猜猜奇妙之旅猜猜奇妙之旅</p>
+                            <p class="acg-over-adr"><i class="iconfont icon-htmal5icon14"></i>上海万达广场3楼购物中心</p>
+                            <p class="acg-over-time"><i class="iconfont icon-htmal5icon34"></i>2015年3月12日～2015年9月21日</p>
+                        </div>
+                    </div>
+                    <div class="acg-inner-item">
+                        <img src="http://7xjbbc.com1.z0.glb.clouddn.com/Fv5QL1QfYzhdWl0stqY-MsP3swJd">
+                        <div class="acg-over-text">
+                            <p class="acg-over-title">猜猜奇妙之旅猜猜奇妙之旅猜猜奇妙之旅猜猜奇妙之旅猜猜奇妙之旅</p>
+                            <p class="acg-over-adr"><i class="iconfont icon-htmal5icon14"></i>上海万达广场3楼购物中心</p>
+                            <p class="acg-over-time"><i class="iconfont icon-htmal5icon34"></i>2015年3月12日～2015年9月21日</p>
+                        </div>
+                    </div>
+                    <div class="acg-inner-item">
+                        <img src="http://7xjbbc.com1.z0.glb.clouddn.com/Fv5QL1QfYzhdWl0stqY-MsP3swJd">
+                        <div class="acg-over-text">
+                            <p class="acg-over-title">猜猜奇妙之旅猜猜奇妙之旅猜猜奇妙之旅猜猜奇妙之旅猜猜奇妙之旅</p>
+                            <p class="acg-over-adr"><i class="iconfont icon-htmal5icon14"></i>上海万达广场3楼购物中心</p>
+                            <p class="acg-over-time"><i class="iconfont icon-htmal5icon34"></i>2015年3月12日～2015年9月21日</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 广告位 -->
+            <div class="acg-adv">
+                <img src="images/index/adv.jpg">
+            </div>
+            <!--入住企业-->
+            <div class="acg-index-item">
+                <div class="acg-head">
+                    <i class="iconfont icon-acgtubiao"></i>
+                    <span class="acg-head-name">入驻企业<em>&nbsp;&nbsp;ENTERPRISE</em></span>
+                    <a class="acg-nav-tabBtn ml120 acg-active" href="javascript:;">玩具工厂</a>
+                    <a class="acg-nav-tabBtn ml20" href="javascript:;">贸易公司</a>
+                    <a class="acg-nav-tabBtn ml20" href="javascript:;">游戏制作公司</a>
+                    <a class="acg-nav-tabBtn ml20" href="javascript:;">影视传媒公司</a>
+                    <!--<a class="acg-more" href="javascript:;">更多>></a>-->
+                </div>
+                <div class="acg-inner-noPadding">
+                    <div class="priseImgbox">
+                        <img src="images/index/qiye.jpg">
+                    </div>
+                    <div class="priseImgbox">
+                        <img src="images/index/qiye.jpg">
+                    </div>
+                    <div class="priseImgbox">
+                        <img src="images/index/qiye.jpg">
+                    </div>
+                    <div class="priseImgbox">
+                        <img src="images/index/qiye.jpg">
+                    </div>
+                    <div class="priseImgbox">
+                        <img src="images/index/qiye.jpg">
+                    </div>
+                    <div class="priseImgbox">
+                        <img src="images/index/qiye.jpg">
+                    </div>
+                    <div class="priseImgbox">
+                        <img src="images/index/qiye.jpg">
+                    </div>
+                    <div class="priseImgbox">
+                        <img src="images/index/qiye.jpg">
+                    </div>
+                    <div class="priseImgbox">
+                        <img src="images/index/qiye.jpg">
+                    </div>
+                    <div class="priseImgbox">
+                        <img src="images/index/qiye.jpg">
+                    </div>
+                </div>
+            </div>
+            <!--合作伙伴-->
+            <div class="acg-index-item">
+                <div class="acg-head">
+                    <i class="iconfont icon-acgtubiao"></i>
+                    <span class="acg-head-name">合作伙伴<em>&nbsp;&nbsp;PARTNERS</em></span>
+                    <!--<a class="acg-more" href="javascript:;">更多>></a>-->
+                </div>
+                <div class="acg-inner-noPadding">
+                    <ul class="acg-partner">
+                        <li>
+                            <img src="http://7xjbbc.com1.z0.glb.clouddn.com/FrbQomcjXOIbPpO6PlnrIbFntZuI">
+                        </li>
+                        <li>
+                            <img src="http://7xjbbc.com1.z0.glb.clouddn.com/FrbQomcjXOIbPpO6PlnrIbFntZuI">
+                        </li>
+                        <li>
+                            <img src="http://7xjbbc.com1.z0.glb.clouddn.com/FrbQomcjXOIbPpO6PlnrIbFntZuI">
+                        </li>
+                        <li>
+                            <img src="http://7xjbbc.com1.z0.glb.clouddn.com/FrbQomcjXOIbPpO6PlnrIbFntZuI">
+                        </li>
+                        <li>
+                            <img src="http://7xjbbc.com1.z0.glb.clouddn.com/FrbQomcjXOIbPpO6PlnrIbFntZuI">
+                        </li>
+                        <li>
+                            <img src="http://7xjbbc.com1.z0.glb.clouddn.com/FrbQomcjXOIbPpO6PlnrIbFntZuI">
+                        </li>
+                        <li>
+                            <img src="http://7xjbbc.com1.z0.glb.clouddn.com/FrbQomcjXOIbPpO6PlnrIbFntZuI">
+                        </li>
+                        <li>
+                            <img src="http://7xjbbc.com1.z0.glb.clouddn.com/FrbQomcjXOIbPpO6PlnrIbFntZuI">
+                        </li>
+                        <li>
+                            <img src="http://7xjbbc.com1.z0.glb.clouddn.com/FrbQomcjXOIbPpO6PlnrIbFntZuI">
+                        </li>
+                        <li>
+                            <img src="http://7xjbbc.com1.z0.glb.clouddn.com/FrbQomcjXOIbPpO6PlnrIbFntZuI">
+                        </li>
+                        <li>
+                            <img src="http://7xjbbc.com1.z0.glb.clouddn.com/FrbQomcjXOIbPpO6PlnrIbFntZuI">
+                        </li>
+                        <li>
+                            <img src="http://7xjbbc.com1.z0.glb.clouddn.com/FrbQomcjXOIbPpO6PlnrIbFntZuI">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="acg-footer">
+        <div class="acg-container">
+            <ul class="acg-cust-list">
+                <li>
+                    <p><i class="iconfont icon-help"></i>交易指南</p>
+                    <p> <a class="acg-footer-a" href="#">常见问题</a>
+                    <p><a class="acg-footer-a" href="#">联系客服</a>
+                    <p><a class="acg-footer-a" href="#">交易流程</a>
+                </li>
+                <li>
+                    <p><i class="iconfont icon-questions"></i>法律服务</p>
+                    <p> <a class="acg-footer-a" href="#">法律咨询</a>
+                    <p><a class="acg-footer-a" href="#">商标法&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                    <p><a class="acg-footer-a" href="#">著作权法</a>
+                </li>
+                <li>
+                    <p><i class="iconfont icon-miaojiesellerpcinfoon"></i>支付方式</p>
+                    <p><a class="acg-footer-a" href="#">银联支付</a>
+                    <p><a class="acg-footer-a" href="#">&nbsp;&nbsp;&nbsp;&nbsp;支付宝支付</a>
+                    <p><a class="acg-footer-a" href="#">公司转账</a>
+                </li>
+            </ul>
+        </div>
+        <div class="acg-footer-down">
+            <div class="acg-container">
+                <ul class="acg-footer-down-about">
+                    <a href="#">关于我们</a>
+                    <span>|</span>
+                    <a href="#">联系客服</a>
+                    <span>|</span>
+                    <a href="#">法律声明</a>
+                </ul>
+                <p class="acg-copyright">Copyright © 2014-2015 国家动漫游戏知识产权交易平台ACGLicensing.com 版权所有</p>
+                <ul class="acg-lower">
+                    <li><i class="acg-icon beian"></i><a href="#">经营网站备案信息</a></li>
+                    <li><i class="acg-icon pingce"></i><a href="#">可信网站信用评测</a></li>
+                    <li><i class="acg-icon jingcha"></i><a href="#">网络警察提醒您</a></li>
+                    <li><i class="acg-icon chengxin"></i><a href="#">诚信网站</a></li>
+                    <li><a href="#">暴恐音视频举报专区<br>互联网违法和不良信息举报中心</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script src="js/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
+    <script src="js/unslider-min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(function(){
+            $("#slides").unslider({
+                autoplay:1,
+                speed: 500,               //  The speed to animate each slide (in milliseconds)
+                delay: 3000
+            });
+            $(".searchItem").mouseleave(function(){
+                $(".hideItem").slideUp();
+            })
+            $(".hideItem a").each(function(){
+                $(this).click(function(){
+                    var old = $("#searchType span").html();
+                    var news = $(this).html();
+                    $("#searchType span").html(news)
+                    $(this).html(old);
+                    $(".hideItem").slideUp();
+                })
+            })
+            $(".acg-inner-item").each(function(){
+                $(this).mousemove(function(){
+                    $(this).find(".acg-over-text").show();
+                });
+                $(this).mouseleave(function(){
+                    $(this).find(".acg-over-text").hide();
+                });
+            });
+        })
+        function chooseSearchType(){
+            $(".hideItem").slideToggle();
+        }
+    </script>
+</body>
+</html>
