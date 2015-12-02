@@ -453,6 +453,13 @@
                     <div class="fontclass">.huojiao01</div>
                 </li>
             
+                <li>
+                <i class="icon iconfont">&#xe60c;</i>
+                    <div class="name">￥</div>
+                    <div class="code">&amp;#xe60c;</div>
+                    <div class="fontclass">.anonymous-iconfont</div>
+                </li>
+            
         </ul>
 
 

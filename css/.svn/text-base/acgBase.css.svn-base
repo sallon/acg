@@ -62,10 +62,10 @@ a:hover { color: #c7171e; }
 .acg-header .acg-main-logo img { height: 39px; margin-top: 8px; }
 .acg-header .acg-nav { float: left; margin-left: 12px; }
 .acg-header .acg-nav li { float: left; }
-.acg-header .acg-nav li a { display: block; width: 74px; text-align: center; height: 55px; font-size: 16px; box-sizing: border-box; padding-top: 16px; font-weight: bold; color: #000; }
+.acg-header .acg-nav li a { display: block; width: 74px; text-align: center; height: 55px; font-size: 16px; box-sizing: border-box; padding-top: 16px; line-height: 16px; font-weight: bold; color: #000; }
 .acg-header .acg-nav li a:hover { color: #c3080f; }
 .acg-header .acg-nav li a.acg-active { background-color: #c3080f; color: #fff; }
-.acg-header .acg-nav li a .acg-sm-en { padding-top: 7px; font-weight: normal; font-size: 12px; }
+.acg-header .acg-nav li a .acg-sm-en { padding-top: 5px; font-weight: normal; font-size: 12px; }
 
 .acg-searchBox { float: left; margin-left: 100px; margin-top: 12px; height: 30px; border: 1px solid #c3080f; border-radius: 5px; width: 378px; }
 .acg-searchBox .searchItem { float: left; height: 30px; line-height: 30px; width: 68px; background-color: #c3080f; position: relative; }
@@ -163,5 +163,6 @@ a:hover { color: #c7171e; }
 .acg-tab-inner .acg-tab-inner-item:nth-child(5n) { border-right: none; }
 .acg-tab-inner .acg-tab-inner-item .imgitem { width: 220px; height: 220px; background-position: center; background-size: cover; overflow: hidden; margin: 0 auto; }
 .acg-tab-inner .acg-tab-inner-item .licensing-name { font-size: 16px; height: 32px; line-height: 32px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
-.acg-tab-inner .acg-tab-inner-item .licensing-price { font-size: 20px; font-weight: bold; color: #c3080f; line-height: 40px; }
+.acg-tab-inner .acg-tab-inner-item .licensing-price { font-size: 20px; font-weight: bold; color: #c3080f; line-height: 40px; letter-spacing: 2px; }
+.acg-tab-inner .acg-tab-inner-item .licensing-price .iconfont { position: relative; font-size: 20px; top: 0px; left: 0px; }
 .acg-tab-inner .acg-tab-inner-item .iconfont { font-size: 30px; position: absolute; color: #c3080f; top: 20px; left: 20px; }

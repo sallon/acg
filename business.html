@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>我的业务</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <link rel="stylesheet" href="images/icon/iconfont.css">
+    <link rel="stylesheet" href="css/acgBase.css">
+    <link rel="stylesheet" href="css/business.css">
+</head>
+<body>
+    <div class="acg-b-header">
+        <div class="acg-container">
+            <a href="index.html" class="acg-main-logo"><img src="images/common/logo.png"></a>
+            <a class="acg-index" href="index.html">首页</a>
+            <span class="myBusiness">我的业务</span>
+            <ul class="acg-right-menu">
+                <li>
+                    <a href="#"><i class="iconfont icon-htmal5icon38"></i>收藏中心</a>
+                </li>
+                <li>
+                    <a href="#"><i class="iconfont icon-htmal5icon05"></i>我的消息（<em>1</em>）</a>
+                </li>
+                <li>
+                    <a href="#"><i class="iconfont icon-zhanghushezhi"></i>账户设置</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="acg-b-body">
+        <div class="acg-left-nav">
+            <div class="acg-tab-nav acg-active acg-actice-1" >
+                <a href="javascript:;" onclick="buyerNav(this)">我是买家</a>
+                <a href="javascript:;" onclick="sallerNav(this)">我是卖家</a>
+            </div>
+            <!--公司个人-认证未通过&未认证显示的菜单-->
+            <div class="nav-box" style="display: none">
+                <a class="nav-item navFlag" href="business.html"><i class="iconfont icon-home"></i>我的业务首页</a>
+                <a class="nav-item navFlag" href="business.html"><i class="iconfont icon-htmal5icon38"></i>收藏中心</a>
+                <div class="nav-item">
+                    <p class="navFlag"><i class="iconfont icon-zhanghushezhi"></i>账户设置</p>
+                    <div class="itemListOther">
+                        <a href="#">我被授权的业务</a>
+                        <a href="#">我代理的业务</a>
+                    </div>
+                </div>
+                <div class="nav-item">
+                    <p class="navFlag"><i class="iconfont icon-zhiwu"></i>认证管理</p>
+                    <div class="itemListOther">
+                        <a href="#">我被授权的业务</a>
+                        <a href="#">我代理的业务</a>
+                    </div>
+                </div>
+            </div>
+            <!--买家-->
+            <div class="nav-box" id="buyer">
+                <a class="nav-item navFlag" href="business.html"><i class="iconfont icon-home"></i>我的业务首页</a>
+                <div class="nav-item acg-active">
+                    <p class="navFlag"><i class="iconfont icon-transactionsfilling"></i>交易管理</p>
+                    <div class="itemListOther ">
+                        <a href="#" class="acg-active">我被授权的业务</a>
+                        <a href="#">我代理的业务</a>
+                    </div>
+                </div>
+                <div class="nav-item">
+                    <p class="navFlag"><i class="iconfont icon-f9mod62"></i>市场计划</p>
+                    <div class="itemListOther">
+                        <a href="#">我被授权的业务</a>
+                        <a href="#">我代理的业务</a>
+                    </div>
+                </div>
+                <div class="nav-item">
+                    <p class="navFlag"><i class="iconfont icon-permissions"></i>主页设置</p>
+                    <div class="itemListOther">
+                        <a href="#">设置基本信息</a>
+                        <a href="#">操作员管理</a>
+                        <a href="#">新闻管理</a>
+                    </div>
+                </div>
+                <a class="nav-item navFlag" href="business.html"><i class="iconfont icon-zhiwu"></i>认证管理</a>
+            </div>
+            <!--卖家-->
+            <div class="nav-box" id="saller" style="display: none">
+                <a class="nav-item navFlag" href="business.html"><i class="iconfont icon-home"></i>我的业务首页</a>
+                <div class="nav-item">
+                    <p class="navFlag"><i class="iconfont icon-transactionsfilling"></i>交易管理</p>
+                    <div class="itemList">
+                        <a href="#">授权业务</a>
+                        <a href="#">被代理业务</a>
+                    </div>
+                </div>
+                <div class="nav-item">
+                    <p class="navFlag"><i class="iconfont icon-unie648"></i>品牌管理</p>
+                    <div class="itemList">
+                        <a href="#">创建品牌</a>
+                        <a href="#">我的品牌</a>
+                        <a href="#">商标证管理</a>
+                        <a href="#">著作证管理</a>
+                    </div>
+                </div>
+                <div class="nav-item">
+                    <p class="navFlag"><i class="iconfont icon-f9mod50"></i>授权管理</p>
+                    <div class="itemList">
+                        <a href="#">发起授权</a>
+                        <a href="#">已上架授权</a>
+                        <a href="#">待上架授权</a>
+                    </div>
+                </div>
+                <div class="nav-item acg-active">
+                    <p class="navFlag"><i class="iconfont icon-invite"></i>合作伙伴</p>
+                    <div class="itemList">
+                        <a href="#" class="acg-active">许可方</a>
+                        <a href="#">代理商</a>
+                        <a href="#">被授权商</a>
+                    </div>
+                </div>
+                <div class="nav-item">
+                    <p class="navFlag"><i class="iconfont icon-f9mod62"></i>市场计划</p>
+                    <div class="itemList">
+                        <a href="#">创建市场计划</a>
+                        <a href="#">我的市场计划</a>
+                    </div>
+                </div>
+                <div class="nav-item">
+                    <p class="navFlag"><i class="iconfont icon-permissions"></i>主页设置</p>
+                    <div class="itemList">
+                        <a href="#">设置个人信息</a>
+                        <a href="#">新闻管理</a>
+                    </div>
+                </div>
+                <a class="nav-item navFlag" href="business.html"><i class="iconfont icon-zhiwu"></i>认证管理</a>
+            </div>
+
+        </div>
+
+        <div class="acg-right-content">
+            <!--form 内容区域 start-->
+
+            <!--form 内容区域 end-->
+        </div>
+
+    </div>
+    <div class="acg-b-footer">
+        <div class="acg-footer-down">
+            <div class="acg-container">
+                <ul class="acg-footer-down-about">
+                    <a href="#">关于我们</a>
+                    <span>|</span>
+                    <a href="#">联系客服</a>
+                    <span>|</span>
+                    <a href="#">法律声明</a>
+                </ul>
+                <p class="acg-copyright">Copyright © 2014-2015 国家动漫游戏知识产权交易平台ACGLicensing.com 版权所有</p>
+                <ul class="acg-lower">
+                    <li><i class="acg-icon beian"></i><a href="#">经营网站备案信息</a></li>
+                    <li><i class="acg-icon pingce"></i><a href="#">可信网站信用评测</a></li>
+                    <li><i class="acg-icon jingcha"></i><a href="#">网络警察提醒您</a></li>
+                    <li><i class="acg-icon chengxin"></i><a href="#">诚信网站</a></li>
+                    <li><a href="#">暴恐音视频举报专区<br>互联网违法和不良信息举报中心</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script type="text/javascript">
+        function buyerNav(_this){
+            $(_this).parent().removeClass("acg-actice-2").addClass("acg-actice-1");
+            $("#buyer").show();
+            $("#saller").hide();
+        }
+        function sallerNav(_this){
+            $(_this).parent().removeClass("acg-actice-1").addClass("acg-actice-2");
+            $("#buyer").hide();
+            $("#saller").show();
+        }
+    </script>
+</body>
+</html>

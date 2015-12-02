@@ -16,6 +16,8 @@
   -moz-osx-font-smoothing: grayscale;
   line-height: 1;
 }
+.icon-shezhi:before { content: "\e60d"; }
+.icon-zhiwu:before { content: "\e622"; }
 .icon-information:before { content: "\e600"; }
 .icon-transactionsfilling:before { content: "\e601"; }
 .icon-memberfilling:before { content: "\e602"; }
@@ -31,11 +33,19 @@
 .icon-miaojieshoppingcart:before { content: "\e60e"; }
 .icon-zhanghushezhi:before { content: "\e60f"; }
 .icon-unie036:before { content: "\e641"; }
+.icon-home:before { content: "\e623"; }
+.icon-unie64c:before { content: "\e624"; }
+.icon-unie648:before { content: "\e625"; }
+.icon-unie649:before { content: "\e645"; }
 .icon-miaojiesellerpcinfoon:before { content: "\e610"; }
 .icon-miaojiesellerpcinfo:before { content: "\e611"; }
 .icon-miaojiediscount:before { content: "\e612"; }
 .icon-miaojiepromotion:before { content: "\e613"; }
 .icon-miaojierebate:before { content: "\e614"; }
+.icon-qianbao:before { content: "\e646"; }
+.icon-invite:before { content: "\e647"; }
+.icon-f9mod50:before { content: "\e648"; }
+.icon-f9mod62:before { content: "\e649"; }
 .icon-htmal5icon02:before { content: "\e615"; }
 .icon-htmal5icon04:before { content: "\e616"; }
 .icon-htmal5icon05:before { content: "\e617"; }
@@ -76,6 +86,7 @@
 .icon-acgfuzhuangpeijian01:before { content: "\e63e"; }
 .icon-acgbaihuo01:before { content: "\e63f"; }
 .icon-acgtubiao:before { content: "\e640"; }
+.icon-iconfontunie60a:before { content: "\e64a"; }
 .icon-cuyuanjiao01:before { content: "\e642"; }
 .icon-shangyuanjiao01:before { content: "\e643"; }
 .icon-huojiao01:before { content: "\e644"; }

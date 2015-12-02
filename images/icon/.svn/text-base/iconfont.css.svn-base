@@ -79,3 +79,4 @@
 .icon-cuyuanjiao01:before { content: "\e642"; }
 .icon-shangyuanjiao01:before { content: "\e643"; }
 .icon-huojiao01:before { content: "\e644"; }
+.icon-anonymous-iconfont:before { content: "\e60c"; }
